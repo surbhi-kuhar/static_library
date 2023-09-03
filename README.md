@@ -40,8 +40,11 @@ This project implements fundamental data structures—stack, queue, and linked l
      ar rcs libdatastructures.a stack.o queue.o linked_list.o
      ```
      ar command is used to create the static library.
+     
      -c: Create a new archive.
+     
      -r: Add or replace files in the archive.
+     
      -s: Add an index to the archive 
 
 3. **Link with Your Program**
